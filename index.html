@@ -11,33 +11,83 @@
   
   <!-- my css -->
   <link rel="stylesheet" href="stylesheets/index.css">
+
+  <!-- style -->
+  <style>
+    .height_fix {
+      height: 200px;
+    }
+  </style>
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="container">
     <!-- Title -->
     <div class="row">
       <div class="col-12 bg-info text-white d-flex justify-content-center">
-        <h1>TITLE</h1>
+        <h1>ANIMALS ARE CUTE</h1>
       </div>
     </div>
     <!-- Section -->
-    <div class="row d-flex justify-content-center">
-      <div class="col-6 aquamarine">
-        <img src="images/Ferret Using Cellphone.gif" alt="">
+    <div class="row height_fix d-flex justify-content-center">
+      <div class="col-4 aquamarine p-1">
+        <img class="w-100 h-100" src="images/Ferret Using Cellphone.gif" alt="">
       </div>
-      <div class="col-3 samsung_blue">
+      <div class="col-4 samsung_blue p-1">
         <a class="text-white" href="https://youtu.be/_uEfmQt34Nc">
-          Snoring Hummingbird
+          <img class="w-100 h-100" src="images/snoring_hummingbird.png" alt="">
         </a>
       </div>
-      <div class="col-3 aquamarine">
+      <div class="col-4 aquamarine p-1">
         <a href="https://youtu.be/Y2T4caGlK80?t=15">
-          Cat politely asking to get petted
+          <img class="w-100 h-100" src="images/polite_cat.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row height_fix">
+      <div class="col-4 samsung_blue p-1">
+        <a href="https://youtu.be/HmnKbBmYii8?t=53">
+          <img class="w-100 h-100" src="images/polar_bear.png" alt="">
+        </a>
+      </div>
+      <div class="col-4 aquamarine p-1">
+        <a href="https://youtu.be/q3uXXh1sHcI?t=28">
+          <img class="w-100 h-100" src="images/penguin.png" alt="">
+        </a>
+      </div>
+      <div class="col-4 samsung_blue p-1">
+        <a href="https://youtu.be/aR8vA8BY0oA?t=1">
+          <img class="w-100 h-100" src="images/penguin_flying.png" alt="">
         </a>
       </div>
     </div>
   </div>
 
+  <footer class="fixed-bottom d-flex justify-content-center text-muted">
+    <span>Made by KIM</span>
+  </footer>
 
 <!-- Bootstrap CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
